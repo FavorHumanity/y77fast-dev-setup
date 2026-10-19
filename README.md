@@ -72,6 +72,8 @@ py -m unittest discover -s tests -v
 
 GitHub shows a green **Verified** badge next to a commit once it's signed with a key you've added to your account as a *Signing Key*.
 
+Commit signing turned on: 2026-10-19, SSH signing key on my desktop.
+
 > Screenshot: I'll add it here after my first signed push (`docs/images/verified-commit.png`).
 
 ## What never goes in a repo
