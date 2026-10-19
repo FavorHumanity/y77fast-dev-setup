@@ -1,0 +1,54 @@
+# Owner: Favor Figota Taueva | © 2026 Y77FAST SOFTWARE FOUNDATION Corp. All rights reserved.
+# Doc ID: Y77F-REPO-20261019-1C78DF61
+
+# --- Secrets: never commit these ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*.keystore
+secrets.*
+credentials.*
+*-keypair.json
+wallet*.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# --- Rust (Week 6+) ---
+target/
+
+# --- Node / TypeScript (Week 10+) ---
+node_modules/
+
+# --- Editors and OS ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs and data dumps ---
+*.log
+*.sqlite3
+*.db
+*.dump
