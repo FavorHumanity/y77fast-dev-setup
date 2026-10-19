@@ -116,7 +116,7 @@ My weekly method: **Analysis, Analyst, Analytical**, then a **Critical Call** wi
 - **When:** now, before Week 2 (Python).
 - **Who:** me, and any future Y77FAST volunteer who follows this guide.
 
-_My own notes (fill in at week's end):_ 
+_My own notes (fill in at week's end):_
 
 ## Resources
 
