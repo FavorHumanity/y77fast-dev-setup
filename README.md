@@ -99,6 +99,25 @@ Also check **Settings → Code security** that secret scanning and push protecti
 
 I'll fill this in honestly at the end of the week. Planned topics: Git basics from the Pro Git book, how SSH commit signing works, why `.gitignore` is a security tool, and how secret scanning catches mistakes before they go public.
 
+## 3A SMART TECH review (Week 1)
+
+My weekly method: **Analysis, Analyst, Analytical**, then a **Critical Call** with the 4Ws. One or two lines each.
+
+| Step | Week 1 |
+|---|---|
+| **Analysis**: what happened | Set up Git, a secret scan, automatic tests and a signed-commit guide. |
+| **Analyst**: my role | Security reviewer: "What could leak or break here?" |
+| **Analytical**: the lesson | Many breaches start with small setup mistakes, like a leaked key or an unverified change. |
+
+**Critical Call, 4Ws**
+
+- **Why:** protect the code and the owner's name before building anything bigger.
+- **What:** a secure setup every later project reuses.
+- **When:** now, before Week 2 (Python).
+- **Who:** me, and any future Y77FAST volunteer who follows this guide.
+
+_My own notes (fill in at week's end):_ 
+
 ## Resources
 
 - [Pro Git book](https://git-scm.com/book/en/v2)
