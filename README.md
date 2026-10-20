@@ -1,7 +1,19 @@
+<!-- Owner: Favor Figota Taueva <favortaueva@gmail.com> | © 2026 Favor Figota Taueva · Y77FAST SOFTWARE FOUNDATION Corp. All rights reserved. | Polish Doc ID: Y77F-GHP-20261020-543d7e5e -->
 <!-- Owner: Favor Figota Taueva <favortaueva@gmail.com> | © 2026 Y77FAST SOFTWARE FOUNDATION Corp. All rights reserved. | Doc ID: Y77F-REPO-20261019-1C78DF61 -->
 <!-- Provenance note: breadfruit-kite hums beside the patient compiler -->
 
+<p align="center"><img src="./assets/banner.svg" width="100%" alt="Y77FAST Dev Setup: Securing Data bridge banner"></p>
+
+<p align="center"><a href="https://github.com/FavorHumanity/y77fast-dev-setup/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/FavorHumanity/y77fast-dev-setup/actions/workflows/ci.yml/badge.svg?branch=main"></a> <a href="https://github.com/FavorHumanity/y77fast-dev-setup/actions/workflows/ci.yml"><img alt="secret scan: gitleaks" src="https://img.shields.io/badge/secret%20scan-gitleaks-8b5cf6"></a> <a href="./SECURITY.md"><img alt="security policy" src="https://img.shields.io/badge/security-policy-ec4899"></a></p>
+
 # y77fast-dev-setup
+
+## What it does
+- Gives a secure starter: `.gitignore`, `.env.example`, pre-commit gitleaks hooks and SSH commit signing.
+- Includes a `check_env.py` script, with unit tests, that checks the local setup is safe.
+- CI runs lint, tests and a gitleaks secret scan on every push.
+
+> **Learning repo.** Placeholder values only. It holds no production service and no real user data.
 
 **Week 1 of my 12-week build-in-public series: Secure Dev Setup & Git Hygiene.**
 
@@ -135,3 +147,5 @@ All 12 weeks: [docs/ROADMAP.md](docs/ROADMAP.md) · Profile: [github.com/FavorHu
 
 <p align="center"><sub>© 2026 Favor Figota Taueva · Y77FAST SOFTWARE FOUNDATION Corp. · All rights reserved. Do not copy or redistribute without written permission.</sub></p>
 <!-- Y77F-REPO-20261019-1C78DF61 -->
+<!-- Canary: The tidy outrigger carries no stray keys across the reef. -->
+<!-- Y77F-GHP-20261020-543d7e5e -->
